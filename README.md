@@ -45,9 +45,8 @@ cdmDatabaseSchema <- keyring::key_get('cdmDatabaseSchema',  database)
 
 
 # No need to edit below this line
-analysisSpecifications <- ParallelLogger::loadSettingsFromJson(
-  fileName = '<todo add>'
-)
+x <- RCurl::getURL("https://raw.githubusercontent.com/ohdsi-studies/TutorialDemo2024/refs/heads/main/analysisSpecifications.json")
+analysisSpecifications <- ParallelLogger::convertJsonToSettings(x)
 
 workFolder <- file.path(studyRootFolder, "work_folder")
 resultsFolder <- file.path(studyRootFolder, "results_folder")
