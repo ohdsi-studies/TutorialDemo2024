@@ -1602,7 +1602,7 @@
       "settings": {
         "modelDesignList": [
           {
-            "targetId": 18713001,
+            "targetId": 18716001,
             "outcomeId": 18713,
             "restrictPlpDataSettings": {
               "studyStartDate": "",
@@ -1687,7 +1687,7 @@
                   "modelType": "logistic",
                   "addIntercept": true,
                   "useControl": true,
-                  "seed": 99895051,
+                  "seed": 36179757,
                   "name": "Lasso Logistic Regression",
                   "threads": -1,
                   "tolerance": 2e-06,
@@ -1702,7 +1702,7 @@
             "splitSettings": {
               "test": 0.25,
               "train": 0.75,
-              "seed": 71945,
+              "seed": 49351,
               "nfold": 3,
               "attr_class": "splitSettings",
               "attr_fun": "randomSplitter"
@@ -1804,7 +1804,7 @@
                   "modelType": "logistic",
                   "addIntercept": true,
                   "useControl": true,
-                  "seed": 76070256,
+                  "seed": 24095525,
                   "name": "Lasso Logistic Regression",
                   "threads": -1,
                   "tolerance": 2e-06,
@@ -1819,7 +1819,7 @@
             "splitSettings": {
               "test": 0.25,
               "train": 0.75,
-              "seed": 55673,
+              "seed": 70849,
               "nfold": 3,
               "attr_class": "splitSettings",
               "attr_fun": "randomSplitter"

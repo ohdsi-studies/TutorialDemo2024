@@ -309,7 +309,7 @@ cohortDefinitionSet <- ROhdsiWebApi::exportCohortDefinitionSet(
 
 
 
-  plpTargets <- c(18713*1000+1, indicationOfInterest)
+  plpTargets <- c(18716*1000+1, indicationOfInterest)
 
   modelDesignList <- list()
   for (i in 1:length(plpTargets)) {
@@ -441,8 +441,7 @@ cohortDefinitionSet <- ROhdsiWebApi::exportCohortDefinitionSet(
     addCohortGeneratorModuleSpecifications(cgModuleSpecifications) |>
     addCohortIncidenceModuleSpecifications(ciModuleSpecifications) |>
     addCohortMethodeModuleSpecifications(cmModuleSpecifications) |>
-    #addEvidenceSynthesisModuleSpecifications(evidenceSynthesisAnalysisSpecifications) |>
-    addSelfControlledCaseSeriesModuleSpecifications(sccsModuleSpecifications) |>
+    #addSelfControlledCaseSeriesModuleSpecifications(sccsModuleSpecifications) |>
     addPatientLevelPredictionModuleSpecifications(plpModuleSpecifications)
 
 
