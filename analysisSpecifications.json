@@ -1598,59 +1598,6 @@
       "attr_class": ["ModuleSpecifications", "CohortMethodModuleSpecifications"]
     },
     {
-      "module": "EvidenceSynthesisModule",
-      "settings": {
-        "evidenceSynthesisAnalysisList": [
-          {
-            "chainLength": 1100000,
-            "burnIn": 100000,
-            "subSampleFrequency": 100,
-            "priorSd": [2, 0.5],
-            "alpha": 0.05,
-            "robust": false,
-            "df": 4,
-            "seed": 1,
-            "evidenceSynthesisAnalysisId": 1,
-            "evidenceSynthesisDescription": "Bayesian random-effects alpha 0.05 - adaptive grid",
-            "evidenceSynthesisSource": {
-              "sourceMethod": "CohortMethod",
-              "likelihoodApproximation": "adaptive grid",
-              "attr_class": "EvidenceSynthesisSource"
-            },
-            "controlType": "outcome",
-            "attr_class": ["BayesianMetaAnalysis", "EvidenceSynthesisAnalysis"]
-          },
-          {
-            "chainLength": 1100000,
-            "burnIn": 100000,
-            "subSampleFrequency": 100,
-            "priorSd": [2, 0.5],
-            "alpha": 0.05,
-            "robust": false,
-            "df": 4,
-            "seed": 1,
-            "evidenceSynthesisAnalysisId": 2,
-            "evidenceSynthesisDescription": "Bayesian random-effects alpha 0.05 - adaptive grid",
-            "evidenceSynthesisSource": {
-              "sourceMethod": "SelfControlledCaseSeries",
-              "likelihoodApproximation": "adaptive grid",
-              "attr_class": "EvidenceSynthesisSource"
-            },
-            "controlType": "outcome",
-            "attr_class": ["BayesianMetaAnalysis", "EvidenceSynthesisAnalysis"]
-          }
-        ],
-        "esDiagnosticThresholds": {
-          "mdrrThreshold": 10,
-          "easeThreshold": 0.25,
-          "i2Threshold": 0.4,
-          "tauThreshold": 0.6931,
-          "attr_class": "EsDiagnosticThresholds"
-        }
-      },
-      "attr_class": ["ModuleSpecifications", "EvidenceSynthesisModuleSpecifications"]
-    },
-    {
       "module": "SelfControlledCaseSeriesModule",
       "settings": {
         "sccsAnalysisList": [
@@ -3671,7 +3618,7 @@
                   "modelType": "logistic",
                   "addIntercept": true,
                   "useControl": true,
-                  "seed": 80425871,
+                  "seed": 88636114,
                   "name": "Lasso Logistic Regression",
                   "threads": -1,
                   "tolerance": 2e-06,
@@ -3686,7 +3633,7 @@
             "splitSettings": {
               "test": 0.25,
               "train": 0.75,
-              "seed": 51704,
+              "seed": 95651,
               "nfold": 3,
               "attr_class": "splitSettings",
               "attr_fun": "randomSplitter"
@@ -3788,7 +3735,7 @@
                   "modelType": "logistic",
                   "addIntercept": true,
                   "useControl": true,
-                  "seed": 98594328,
+                  "seed": 39867344,
                   "name": "Lasso Logistic Regression",
                   "threads": -1,
                   "tolerance": 2e-06,
@@ -3803,7 +3750,7 @@
             "splitSettings": {
               "test": 0.25,
               "train": 0.75,
-              "seed": 6321,
+              "seed": 57505,
               "nfold": 3,
               "attr_class": "splitSettings",
               "attr_fun": "randomSplitter"

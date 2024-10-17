@@ -441,7 +441,7 @@ cohortDefinitionSet <- ROhdsiWebApi::exportCohortDefinitionSet(
     addCohortGeneratorModuleSpecifications(cgModuleSpecifications) |>
     addCohortIncidenceModuleSpecifications(ciModuleSpecifications) |>
     addCohortMethodeModuleSpecifications(cmModuleSpecifications) |>
-    addEvidenceSynthesisModuleSpecifications(evidenceSynthesisAnalysisSpecifications) |>
+    #addEvidenceSynthesisModuleSpecifications(evidenceSynthesisAnalysisSpecifications) |>
     addSelfControlledCaseSeriesModuleSpecifications(sccsModuleSpecifications) |>
     addPatientLevelPredictionModuleSpecifications(plpModuleSpecifications)
 
