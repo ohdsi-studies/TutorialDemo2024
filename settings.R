@@ -283,7 +283,7 @@ cohortDefinitionSet <- ROhdsiWebApi::exportCohortDefinitionSet(
         sampleSize = 1000000
         ),
       populationSettings = popSettings,
-      covariateSettings = covariateSettings,
+      covariateSettings = covarSettings,
       preprocessSettings = PatientLevelPrediction::createPreprocessSettings(),
       modelSettings = PatientLevelPrediction::setLassoLogisticRegression(),
       splitSettings = PatientLevelPrediction::createDefaultSplitSetting(),

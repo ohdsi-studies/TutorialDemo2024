@@ -848,6 +848,8 @@
                 "initialBound": 2,
                 "maxBoundCount": 5,
                 "algorithm": "ccd",
+                "doItAll": true,
+                "syncCV": false,
                 "attr_class": "cyclopsControl"
               },
               "attr_class": "args"
@@ -963,6 +965,8 @@
                 "initialBound": 2,
                 "maxBoundCount": 5,
                 "algorithm": "ccd",
+                "doItAll": true,
+                "syncCV": false,
                 "attr_class": "cyclopsControl"
               },
               "estimator": "att",
@@ -1037,6 +1041,8 @@
                 "initialBound": 2,
                 "maxBoundCount": 5,
                 "algorithm": "ccd",
+                "doItAll": true,
+                "syncCV": false,
                 "attr_class": "cyclopsControl"
               },
               "attr_class": "args"
@@ -1750,6 +1756,8 @@
                 "initialBound": 2,
                 "maxBoundCount": 5,
                 "algorithm": "ccd",
+                "doItAll": true,
+                "syncCV": false,
                 "attr_class": "cyclopsControl"
               },
               "profileBounds": [-2.3026, 2.3026],
@@ -3593,7 +3601,8 @@
               "temporalSequence": false,
               "DemographicsGender": true,
               "DemographicsAge": true,
-              "ConditionOccurrenceAnyTimePrior": true,
+              "ConditionGroupEraLongTerm": true,
+              "DrugGroupEraLongTerm": true,
               "longTermStartDays": -365,
               "mediumTermStartDays": -180,
               "shortTermStartDays": -30,
@@ -3662,7 +3671,7 @@
                   "modelType": "logistic",
                   "addIntercept": true,
                   "useControl": true,
-                  "seed": 76083144,
+                  "seed": 80425871,
                   "name": "Lasso Logistic Regression",
                   "threads": -1,
                   "tolerance": 2e-06,
@@ -3677,7 +3686,7 @@
             "splitSettings": {
               "test": 0.25,
               "train": 0.75,
-              "seed": 51803,
+              "seed": 51704,
               "nfold": 3,
               "attr_class": "splitSettings",
               "attr_fun": "randomSplitter"
@@ -3709,7 +3718,8 @@
               "temporalSequence": false,
               "DemographicsGender": true,
               "DemographicsAge": true,
-              "ConditionOccurrenceAnyTimePrior": true,
+              "ConditionGroupEraLongTerm": true,
+              "DrugGroupEraLongTerm": true,
               "longTermStartDays": -365,
               "mediumTermStartDays": -180,
               "shortTermStartDays": -30,
@@ -3778,7 +3788,7 @@
                   "modelType": "logistic",
                   "addIntercept": true,
                   "useControl": true,
-                  "seed": 2572958,
+                  "seed": 98594328,
                   "name": "Lasso Logistic Regression",
                   "threads": -1,
                   "tolerance": 2e-06,
@@ -3793,7 +3803,7 @@
             "splitSettings": {
               "test": 0.25,
               "train": 0.75,
-              "seed": 52548,
+              "seed": 6321,
               "nfold": 3,
               "attr_class": "splitSettings",
               "attr_fun": "randomSplitter"
