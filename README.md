@@ -10,7 +10,7 @@ Tutorial Demo 2024
 - Study lead forums tag: **-**
 - Study start date: **-**
 - Study end date: **-**
-- Protocol: [**Protocol**](StudyProtocol.pdf)
+- Protocol: [**Protocol**](https://ohdsi-studies.github.io/TutorialDemo2024/)
 - Publications: **-**
 - Results explorer: **-**
 
